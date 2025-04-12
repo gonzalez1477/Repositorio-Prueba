@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121a2a;
+    font-family: Arial, sans-serif;
+}
+.tarjeta-perfil {
+    background: #1d2b50;
+    width: 320px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.tarjeta-perfil__imagen {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.tarjeta-perfil__boton {
+    background: linear-gradient(90deg, #ff00ff, #ae84dd);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 0.3s;
+}
+.tarjeta-perfil__boton:hover {
+    background: linear-gradient(90deg, #ff00ff, #998cb3);
+}
+.tarjeta-perfil__iconos .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarjeta-perfil__icono {
+    background: linear-gradient(135deg, #ff0077, #7700ff);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
